@@ -203,7 +203,7 @@ def main(params):
 
 
     
-    exit()
+    #  exit()
 
     import misc.cnn.resnet as resnet
     resnet_type = 'resnet151'
