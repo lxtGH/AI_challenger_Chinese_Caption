@@ -1,8 +1,9 @@
 # chinese_im2text.pytorch
-
-
-That project is based on ruotian's [neuraltalk2.pytorch](https://github.com/ruotianluo/neuraltalk2.pytorch).
-
+# Notice 
+This projetc is based on gujiuxiang's [chinese_im2text.pytorch](https://github.com/gujiuxiang/chinese_im2text.pytorch).
+But there are some bugs in his repository, this project tries to fix them.
+His project is based on ruotian's [neuraltalk2.pytorch](https://github.com/ruotianluo/neuraltalk2.pytorch).
+Most of codes are from that amazing projects
 ## Requirements
 
 ### Software enviroment
