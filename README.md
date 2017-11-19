@@ -22,7 +22,7 @@ First, download the 图像中文描述数据库 from [link](https://challenger.a
 
 ```bash
 $ python scripts/json_preprocess.py
-$ python scripts/prepro_ai_challenger.py
+$ python prepro_ai_challenger.py
 ```
 
 `json_preprocess.py` will first transform the AI challenger Image Caption_json to mscoco json format. Then map all words that occur <= 5 times to a special `UNK` token, and create a vocabulary for all the remaining words. The image information and vocabulary are dumped into `coco_ai_challenger_raw.json`.
