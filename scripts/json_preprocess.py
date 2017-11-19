@@ -245,11 +245,11 @@ if __name__ == "__main__":
     val_img_dir = '/data/liyuntao/DataSet/ai_challenger_caption_validation_20170910/caption_validation_images_20170910'
     test_img_dir = '/data/liyuntao/DataSet/ai_challenger_caption_test1_20170923/caption_test1_images_20170923'
     # Convert json (ai challenger) to coco format
-    #convert2coco(train_caption_json, train_img_dir)
-    # convert2coco_val(val_caption_json, val_img_dir)
+    convert2coco(train_caption_json, train_img_dir)
+    convert2coco_val(val_caption_json, val_img_dir)
     # Create json file for testing
-    # convert2coco_test(test_img_dir)
+    convert2coco_test(test_img_dir)
     # Create json file for evaluation
-    # convert2coco_eval(val_caption_json, val_img_dir)
+    convert2coco_eval(val_caption_json, val_img_dir)
     # Create json file for sentence label and image feature extraction
     ai_challenger_preprocess()
