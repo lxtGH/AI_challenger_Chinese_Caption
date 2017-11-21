@@ -239,7 +239,7 @@ def main(params):
     f_lb.create_dataset("label_length", dtype='uint32', data=label_length)
     f_lb.close()
 
-    exit()
+    #exit()
     ### extract features
     dset_fc = f_fc.create_dataset("fc", (N, 2048), dtype='float32')
     dset_att = f_att.create_dataset("att", (N, 14, 14, 2048), dtype='float32')
