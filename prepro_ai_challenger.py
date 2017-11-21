@@ -246,7 +246,7 @@ def main(params):
     for i, img in enumerate(imgs):
         # load the image
         real_path = img['filepath'] + "/" + img['filename']
-        I = skimage.io.imread(os.path.join(params['images_root']+"/", real_path))  # note the path 
+        I = skimage.io.imread(os.path.join(params['images_root'],real_path))  # note the path 
         # handle grayscale input images
         if len(I.shape) == 2:
             I = I[:, :, np.newaxis]
