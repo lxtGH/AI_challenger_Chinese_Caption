@@ -1,4 +1,4 @@
-# chinese_im2text.pytorch
+# chinese_im2text.pytorch 图像中文描述（Chinese Caption）
 # Notice 
 This projetc is based on gujiuxiang's [chinese_im2text.pytorch](https://github.com/gujiuxiang/chinese_im2text.pytorch).
 But there are some bugs in his repository, this project tries to fix them.
@@ -35,6 +35,10 @@ chinese_im2text.pytorch/caption_eval/data/coco_caption_validation_annotations_20
 ```
 
 `prepro_ai_challenger.py` extract the resnet101 features (both fc feature and last conv feature) of each image. The features are saved in `coco_ai_challenger_talk_fc.h5` and `coco_ai_challenger_talk_att.h5`, and resulting files are about 359GB.
+
+### Note 
+Download the json file here 
+https://pan.baidu.com/s/1dFgxewT
 
 
 ### Start training
